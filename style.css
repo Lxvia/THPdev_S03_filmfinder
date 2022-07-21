@@ -1,0 +1,49 @@
+body {
+    padding-top: 10em;
+    padding-left: 2em;
+    background-color: rgb(44, 44, 44);
+}
+
+.container {
+    max-width: 40em;
+}
+
+.container h1 {
+    color: rgb(77, 106, 255);
+}
+
+.btn {
+    background-color: rgb(77, 106, 255);
+    width: 7em;
+}
+
+.card {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.card.not-visible {
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    max-width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+ }
+
+.card-title1 {
+    margin-right: 10px;
+}
